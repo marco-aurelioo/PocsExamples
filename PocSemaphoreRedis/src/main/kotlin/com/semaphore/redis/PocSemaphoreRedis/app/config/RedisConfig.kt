@@ -24,7 +24,7 @@ class RedisConfig {
             .getSemaphore("SemaphoreExample")
         println( semaphore.drainPermits())
         println( semaphore.availablePermits())
-        println( semaphore.addPermits(5))
+        println( semaphore.addPermits(4))
         return semaphore
     }
 
